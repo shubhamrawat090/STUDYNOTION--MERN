@@ -29,5 +29,8 @@
 		"nodemon": "^2.0.22",
 		"otp-generator": "^4.0.1",
 		"razorpay": "^2.8.6"
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11"
 	}
 }
