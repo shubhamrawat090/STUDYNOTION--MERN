@@ -2,10 +2,6 @@
 const express = require("express")
 const app = express()
 const database = require("./config/database")
-const cookieParser = require("cookie-parser")
-const cors = require("cors")
-const { cloudinaryConnect } = require("./config/cloudinary")
-const fileUpload = require("express-fileupload")
 const dotenv = require("dotenv")
 
 // Setting up port number
@@ -16,6 +12,11 @@ dotenv.config()
 
 // Connecting to database
 database.connect()
+const cookieParser = require("cookie-parser")
+const cors = require("cors")
+
+const { cloudinaryConnect } = require("./config/cloudinary")
+const fileUpload = require("express-fileupload")
 
 // Importing Routes
 const userRoutes = require("./routes/user")
