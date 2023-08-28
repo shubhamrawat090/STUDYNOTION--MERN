@@ -30,8 +30,8 @@
 | Mastercard   | 5241 8100 0000 0000  | Random CVV| Any future date |
 
 
-# Frontend deployed link
+## Frontend deployed link
 <a href="https://studynotion-frontend-tau.vercel.app" target="_blank">Deployed this link using VERCEL</a>
 
-# Backend deployed link
+## Backend deployed link
 <a href="https://studynotion-backend-vlc0.onrender.com" target="_blank">Deployed this link using RENDER</a>
