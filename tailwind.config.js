@@ -11,6 +11,7 @@ module.exports = {
       white: "#fff",
       black: "#000",
       transparent: "#ffffff00",
+      // DARK MODE COLORS
       richblack: {
         5: "#F1F2FF",
         25: "#DBDDEA",
@@ -127,9 +128,9 @@ module.exports = {
     extend: {
       maxWidth: {
         maxContent: "1260px",
-        maxContentTab: "650px"
+        maxContentTab: "650px",
       },
     },
   },
   plugins: [],
-};
+}
